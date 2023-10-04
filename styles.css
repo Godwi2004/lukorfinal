@@ -227,7 +227,7 @@ footer {
 
 /*Media Changes*/
 
-@media (max-width: 1024px), (max-height: 751px) {
+@media (max-width: 1024px) {
   .introduction {
     padding-left: 15px;
   }
@@ -292,7 +292,7 @@ footer {
   }
 }
 
-@media (max-width: 767px), (max-height: 751px) {
+@media (max-width: 767px) {
   .introduction {
     padding-left: 15px;
   }
@@ -348,7 +348,7 @@ footer {
   }
 }
 
-@media (max-width: 480px), (max-height: 751px) {
+@media (max-width: 480px) {
   .introduction {
     padding-left: 15px;
   }
@@ -412,7 +412,7 @@ footer {
   }
 }
 
-@media (max-width: 356px), (max-height: 751px) {
+@media (max-width: 356px) {
   .new-images {
     width: 250px;
     height: 150px;
