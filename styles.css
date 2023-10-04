@@ -411,3 +411,16 @@ footer {
     width: 100%;
   }
 }
+
+@media (max-width: 356px) {
+  .new-images {
+    width: 250px;
+    height: 150px;
+  }
+
+  .side-images,
+  .side-images-2 {
+    width: 260px;
+    height: 170px;
+  }
+}
