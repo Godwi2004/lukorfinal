@@ -1,0 +1,413 @@
+body {
+  text-align: center;
+}
+
+/*Top Section*/
+.top-section {
+  color: #fff;
+  text-align: left;
+}
+
+.navnew {
+  padding: 20px 10px 20px 40px;
+  display: inline-block;
+  line-height: 0.5;
+  padding: 20px 20px 10px 20px;
+}
+
+.lukor {
+  font-family: "Gurnie", sans-serif;
+  font-size: 30px;
+}
+
+.lim {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+
+.introduction {
+  text-align: left;
+  padding: 2% 20% 2% 15%;
+}
+
+.intro {
+  font-size: 38px;
+  font-family: "Gurnie", sans-serif;
+}
+
+.intro2 {
+  padding: 5px 20px 20px 50px;
+  line-height: 1.5;
+}
+
+.purchase-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 30px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.purchase {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+.purchase:hover {
+  color: #fff;
+  text-decoration: 5px underline gold;
+}
+
+/*Carousel Section*/
+.carousel-section {
+  padding: 0;
+  background-color: #002349;
+}
+
+.car-image {
+  width: 1000px;
+  height: 950px;
+  padding: 30px 0 40px;
+}
+
+.new2 {
+  width: 1000px;
+  height: 950px;
+  padding: 30px 0 40px;
+}
+
+a:hover p {
+  color: blue;
+  text-decoration: underline;
+}
+
+.new-captions {
+  position: relative;
+  bottom: 800px;
+  right: 390px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Gurnie", sans-serif;
+}
+
+/*Middle Row*/
+
+.middle-row {
+  padding: 40px 20px 40px 20px;
+}
+
+.local {
+  padding: 5% 15%;
+}
+
+.side-intro {
+  font-size: 32px;
+  font-family: "Gurnie", sans-serif;
+  text-align: left;
+  line-height: normal;
+}
+
+.side-intro-sub {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  text-align: left;
+  padding: 20px 20px 20px 40px;
+}
+
+.side-images {
+  width: 487px;
+  height: 324px;
+  margin-left: 50px;
+}
+
+.side-images-2 {
+  width: 487px;
+  height: 324px;
+  position: relative;
+  bottom: 30px;
+  margin-right: 50px;
+}
+
+hr {
+  border: none;
+  margin: auto;
+  border-top: 3px dotted white;
+  width: 5%;
+}
+
+.side-intro-2 {
+  font-size: 32px;
+  font-family: "Gurnie", sans-serif;
+  text-align: left;
+}
+
+.side-intro-sub-2 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  text-align: left;
+  padding: 10px 20px 20px 40px;
+}
+
+.side-text {
+  font-size: 32px;
+  font-family: "Gurnie", sans-serif;
+  text-align: left;
+}
+
+.side-text-sub {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  text-align: left;
+  padding: 10px 20px 20px 40px;
+}
+
+.newhr {
+  border: 1px solid grey;
+  width: 100%;
+}
+
+/*Sellers Section*/
+
+.sellers {
+  background-color: #002349;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding: 5% 10% 5%;
+}
+
+.sellers-text {
+  width: 50%;
+  padding: 0 0 0 20px;
+}
+
+/*About Section*/
+
+.about {
+  padding: 50px 0;
+}
+
+.about-hd {
+  font-family: "Gurnie", sans-serif;
+}
+
+.about-text {
+  padding: 0 40% 2%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Footer Section*/
+
+footer {
+  background-color: #002349;
+  color: #fff;
+  padding: 2%;
+}
+
+.last-text {
+  margin: 15px 15px 12px 0;
+}
+
+.foot-hd {
+  font-family: "Gurnie", sans-serif;
+  padding: 10px 0;
+}
+
+.copy {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0;
+}
+
+/*Media Changes*/
+
+@media (max-width: 1024px) {
+  .introduction {
+    padding-left: 15px;
+  }
+
+  .intro2 {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .purchase-text {
+    margin-left: 15px;
+  }
+
+  .purchase {
+    margin-left: 15px;
+  }
+
+  .car-image,
+  .new2 {
+    width: 400px;
+    height: 500px;
+  }
+
+  .side-images {
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    padding: 30px 0;
+    padding-right: 20px;
+  }
+
+  .side-images-2 {
+    width: 450px;
+    height: 350px;
+    padding: 30px 20px 30px 0;
+    margin: 0;
+    padding-right: 40px;
+  }
+
+  .side-intro-all {
+    margin: 0;
+    padding-left: 150px;
+  }
+
+  .sellers-text {
+    margin-left: 50px;
+  }
+
+  .about-text {
+    padding: 0;
+    padding: 0 20px;
+  }
+
+  .new-images {
+    width: 450px;
+    height: 300px;
+  }
+
+  .sellers-text {
+    padding: 30px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .introduction {
+    padding-left: 15px;
+  }
+
+  .intro2 {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .purchase-text {
+    margin-left: 15px;
+  }
+
+  .purchase {
+    margin-left: 15px;
+  }
+
+  .car-image,
+  .new2 {
+    width: 400px;
+    height: 500px;
+  }
+
+  .side-images {
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    padding: 30px 0;
+    padding-right: 20px;
+  }
+
+  .side-images-2 {
+    width: 450px;
+    height: 350px;
+    padding: 30px 0;
+    margin: 0;
+    padding-right: 40px;
+  }
+
+  .about-text {
+    padding: 0;
+    padding: 0 20px;
+  }
+
+  .new-images {
+    width: 450px;
+    height: 300px;
+  }
+
+  .sellers-text {
+    padding: 30px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .introduction {
+    padding-left: 15px;
+  }
+
+  .intro2 {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .purchase-text {
+    margin-left: 15px;
+  }
+
+  .purchase {
+    margin-left: 15px;
+  }
+
+  .car-image,
+  .new2 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .side-images {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 20px 0;
+    padding-right: 10px;
+  }
+
+  .side-images-2 {
+    width: 350px;
+    height: 250px;
+    padding: 20px 0;
+    margin: 0;
+    padding-right: 30px;
+  }
+
+  .side-text-sub,
+  .side-intro-sub-2,
+  .side-intro-all,
+  .side-intro-sub {
+    padding: 0;
+  }
+
+  .about-text {
+    padding: 0;
+    padding: 0 10px;
+  }
+
+  .new-images {
+    width: 350px;
+    height: 200px;
+  }
+
+  .sellers-text {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+  }
+}
