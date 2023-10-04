@@ -227,7 +227,7 @@ footer {
 
 /*Media Changes*/
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), (max-height: 751px) {
   .introduction {
     padding-left: 15px;
   }
@@ -292,7 +292,7 @@ footer {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px), (max-height: 751px) {
   .introduction {
     padding-left: 15px;
   }
@@ -348,7 +348,7 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px), (max-height: 751px) {
   .introduction {
     padding-left: 15px;
   }
@@ -412,7 +412,7 @@ footer {
   }
 }
 
-@media (max-width: 356px) {
+@media (max-width: 356px), (max-height: 751px) {
   .new-images {
     width: 250px;
     height: 150px;
@@ -422,5 +422,29 @@ footer {
   .side-images-2 {
     width: 260px;
     height: 170px;
+  }
+}
+
+@media (max-width: 135px), (max-height: 750px) {
+  .side-images {
+    width: 350px;
+    height: 230px;
+  }
+  .side-images-2,
+  .new-images {
+    width: 390px;
+    height: 250px;
+    padding: 20px 10px 20px 5px;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .local,
+  .sellers-text-div {
+    padding: 0;
+  }
+
+  .sellers-text {
+    margin: 0;
   }
 }
